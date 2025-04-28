@@ -10,8 +10,6 @@ const buttonNext = document.querySelector('.btn-next')
 
 let searchPokemon = 1;
 
-// a função tem que ser async pois o dado que você está pegando é um dado de fora, então é um dado assíncrono, para poder usar o await na função, pois não se sabe quanto tempo será necessario para esperar a resposta chegar, então o await serve para falar para função esperar a resposta
-
 // essa função pega informações da API pokéAPI e retorna os dados do número ou do nome do pokémon digítado, e depois converte essas informações em JSON, para poderem ser consumidas
 const fetchPokemon = async (pokemon) => {
 
